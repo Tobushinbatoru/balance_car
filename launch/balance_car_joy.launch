@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <node name="joy_node" pkg="joy" type="joy_node" />
+
+    <node name="balance_car_joy"        pkg="balance_car"      type="balance_car_joy">
+    </node>
+
+</launch>

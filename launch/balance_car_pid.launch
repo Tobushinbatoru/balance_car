@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <node name="balance_car_pid"        pkg="balance_car"      type="balance_car_pid" output="screen">
+    </node>
+
+</launch>

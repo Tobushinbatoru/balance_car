@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <include file="$(find balance_car)/launch/balance_car_wakeup.launch" />
+    
+    <include file="$(find balance_car)/launch/balance_car_joy.launch" />
+    
+    <include file="$(find balance_car)/launch/balance_car_pid.launch" />
+    
+</launch>
+
+
